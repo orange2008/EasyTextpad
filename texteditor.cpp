@@ -1,6 +1,7 @@
 #include"texteditor.h"
 void showInstructions(){
   cout<<"*************Easy TextPad***************\n";
+  cout<<"Register ID: GITDEVELOPER-INTERNALDEBUG-ETP000001\n";
   cout<<"Enter Anything command."<<endl;
   cout<<"0.Help Info"<<endl;
   cout<<"1.View Document Name"<<endl;

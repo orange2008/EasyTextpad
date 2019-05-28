@@ -16,7 +16,9 @@ private:
      int quots;
      int nums;
      int spaces;
+     int purchase;
      string textName;
+     string regID;
      list<string> article;
 public:
     TextEditor();
@@ -47,6 +49,8 @@ public:
              quots =0;
              letters = 0;
              nums = 0;
+             purchase = 1;
+             regID = "GITDEVELOPER-INTERNALDEBUG-ETP000001";
   }
   TextEditor::~TextEditor(){
  
