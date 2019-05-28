@@ -1,7 +1,10 @@
 #include"texteditor.h"
 void showInstructions(){
   cout<<"*************Easy TextPad***************\n";
-  cout<<"Register ID: GITDEVELOPER-INTERNALDEBUG-ETP000001\n";
+  cout<<"You are not registerd!\n";
+  cout<<"Github Opensource Address: https://github.com/orange2008/EasyTextpad\n";
+  cout<<"Version: alpha 1.0\n";
+  cout<<"Release Date: 2019-05-28-11-52-13\n";
   cout<<"Enter Anything command."<<endl;
   cout<<"0.Help Info"<<endl;
   cout<<"1.View Document Name"<<endl;
@@ -162,6 +165,7 @@ int main()
 {
     showInstructions();
     getChoice();
+    system("echo Do you remember to save your file?If you do not save this file,all the change will lose!");
     system("pause");
     return 0;
 }

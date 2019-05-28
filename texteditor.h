@@ -17,8 +17,13 @@ private:
      int nums;
      int spaces;
      int purchase;
+     string ver;
      string textName;
      string regID;
+     string lang;
+     string platform;
+     string io;
+     string filetype;
      list<string> article;
 public:
     TextEditor();
@@ -50,7 +55,12 @@ public:
              letters = 0;
              nums = 0;
              purchase = 1;
-             regID = "GITDEVELOPER-INTERNALDEBUG-ETP000001";
+             ver = "alpha-1.0";
+             regID = "UnRegisterd";
+             lang = "CPP";
+             platform = "mswin-32";
+             io = "Git";
+             filetype = "text/plain/*.txt";
   }
   TextEditor::~TextEditor(){
  
