@@ -55,7 +55,7 @@ public:
              letters = 0;
              nums = 0;
              purchase = 1;
-             ver = "alpha-1.0";
+             ver = "alpha-1.1";
              regID = "UnRegisterd";
              lang = "CPP";
              platform = "mswin-32";
